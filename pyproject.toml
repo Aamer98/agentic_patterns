@@ -1,0 +1,18 @@
+[project]
+name = "agentic-patterns"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "deprecated>=1.2.18",
+    "google-adk>=1.15.1",
+    "google-cloud-aiplatform>=1.119.0",
+    "langchain>=0.3.27",
+    "langchain-community>=0.3.30",
+    "langchain-google-genai>=2.1.12",
+    "langchain-openai>=0.3.35",
+    "langgraph>=0.6.8",
+    "pydantic>=2.11.10",
+    "python-dotenv>=1.1.1",
+]
